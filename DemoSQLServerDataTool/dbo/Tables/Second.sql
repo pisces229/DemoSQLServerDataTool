@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Second]
+(
+	[Row] INT IDENTITY (1, 1) NOT NULL,
+    [Name] NVARCHAR(20) NULL, 
+    CONSTRAINT [PK_Second] PRIMARY KEY CLUSTERED([Row] ASC)
+)
